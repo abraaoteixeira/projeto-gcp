@@ -1,0 +1,19 @@
+## Copilot
+Claro! Vamos explorar o modelo TCP/IP, que é amplamente utilizado na comunicação de redes. Ele também é conhecido como Internet Protocol Suite e descreve como os dados na internet são empacotados, endereçados, enviados e recebidos. Vou apresentar as camadas e alguns exemplos de protocolos em cada uma delas:
+- Camada de Aplicação:
+    - Responsável pela comunicação entre programas e protocolos de transporte.
+    - Exemplos de protocolos: FTP, SMTP, TELNET, HTTP, HTTPS.
+    - Essa camada permite que aplicativos se comuniquem entre si.
+- Camada de Transporte:
+    - Garante a entrega confiável dos dados entre dispositivos finais.
+    - Principais protocolos: TCP (Transmission Control Protocol) e UDP (User Datagram Protocol).
+    - O TCP é usado para comunicação confiável, enquanto o UDP é mais rápido, mas não garante a entrega.
+- Camada de Rede:
+    - Roteamento de pacotes entre diferentes redes.
+    - Protocolo fundamental: IP (Internet Protocol).
+    - O IP define endereçamento lógico (endereços IP) e encaminhamento de pacotes.
+- Camada Física:
+    - Lida com a transmissão física dos dados.
+    - Exemplos: Ethernet, Wi-Fi, fibra óptica.
+    - Essa camada converte bits em sinais elétricos, ópticos ou de rádio.
+Lembrando que o modelo TCP/IP é uma estrutura conceitual e um conjunto de protocolos utilizados para a comunicação através da internet. Cada camada tem seu conjunto específico de protocolos e responsabilidades, e essas camadas trabalham juntas para garantir a conectividade e a transferência de dados na rede  .

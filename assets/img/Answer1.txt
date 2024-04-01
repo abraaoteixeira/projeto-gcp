@@ -1,0 +1,36 @@
+## Copilot
+O Modelo OSI (Open Systems Interconnection) é um modelo conceitual que descreve as funcionalidades e interações entre os diferentes protocolos de rede em um sistema de comunicação de dados. Ele divide o processo de comunicação em sete camadas distintas, cada uma com funções específicas. Vamos explorar cada uma delas:
+- Camada Física:
+    - Responsável pela transmissão física dos dados, convertendo bits em sinais elétricos, ópticos ou de rádio.
+    - Exemplo real: Cabos Ethernet, fibra óptica, sinais Wi-Fi.
+    - Protocolos: Ethernet, USB, Bluetooth.
+- Camada de Enlace ou Ligação:
+    - Gerencia a comunicação direta entre dispositivos adjacentes na rede local.
+    - Realiza controle de fluxo, detecção de erros e endereçamento MAC.
+    - Exemplo real: Switches, placas de rede.
+    - Protocolos: Ethernet (IEEE 802.3), Wi-Fi (IEEE 802.11), PPP.
+- Camada de Rede:
+    - Roteamento de pacotes entre diferentes redes.
+    - Define endereçamento lógico (endereços IP).
+    - Exemplo real: Roteadores.
+    - Protocolos: IP (Internet Protocol), ICMP, OSPF.
+- Camada de Transporte:
+    - Garante a entrega confiável dos dados entre dispositivos finais.
+    - Segmentação e reagrupamento de dados.
+    - Exemplo real: TCP (Transmission Control Protocol), UDP (User Datagram Protocol).
+    - Protocolos: TCP, UDP.
+- Camada de Sessão:
+    - Estabelece, gerencia e encerra sessões de comunicação.
+    - Controle de diálogo entre aplicativos.
+    - Exemplo real: Estabelecimento de conexões VPN.
+    - Protocolos: NetBIOS, RPC.
+- Camada de Apresentação:
+    - Lida com a representação dos dados (criptografia, compressão, formatação).
+    - Tradução entre formatos de dados.
+    - Exemplo real: Codificação e decodificação de arquivos.
+    - Protocolos: SSL/TLS, JPEG, GIF.
+- Camada de Aplicação:
+    - Fornece serviços de rede diretamente aos aplicativos.
+    - Exemplo real: Navegadores, clientes de email.
+    - Protocolos: HTTP, SMTP, FTP.
+O Modelo OSI é fundamental para profissionais de rede e ajuda a entender como os protocolos interagem em uma rede. Vale mencionar que, embora o modelo TCP/IP seja mais prático e amplamente implementado em redes reais, o modelo OSI ainda é valioso para fins educacionais e conceituais  .
