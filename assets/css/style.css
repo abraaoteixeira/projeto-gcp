@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgb(87 201 91 / 90%);;
+  background: rgb(87, 201, 91);;
 }
 #header .logo {
   font-size: 30px;
@@ -420,10 +420,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #59e447;
+  background: #22ad11;
 }
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #59e447
 }
 #hero .btn-watch-video {
   font-size: 16px;
