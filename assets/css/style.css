@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #47b2e4;
+  background: #0068b5;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgb(87, 201, 91);;
+  background: #353a3d;
 }
 #header .logo {
   font-size: 30px;
@@ -172,12 +172,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 200px;
+  max-height: 135px;
   max-width: 150px;
 }
 
 /*--------------------------------------------------------------
-# Navigation Menu
+# Navigation Menu #D9D9D9
 --------------------------------------------------------------*/
 /**
 * Desktop Navigation 
@@ -206,12 +206,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
-  color: #ffffff;
+  color: #020202;
   white-space: nowrap;
   transition: 0.3s;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39); 
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -219,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #47e461;
+  color: #53b2fc;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 20px;
@@ -257,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   text-transform: none;
   font-weight: 500;
-  color: #0c5312;
+  color: #0068b5;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
@@ -321,7 +320,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: #0068b5;
   transition: 0.3s;
   z-index: 999;
 }
@@ -346,14 +345,14 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #0068b5;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #47b2e4;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
+  color: #0068b5;
 }
 .navbar-mobile .dropdown ul {
   position: static;
@@ -386,28 +385,27 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  /* height: 80vh; */
-  background-image: url("/assets/img/fundo.jpeg");
-  background-repeat: round;
-  height:100vh;
+  width: auto;
+  background-image: url("../img/r0q91sp9.png");
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 #hero .container {
   padding-top: 72px;
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.39); 
+  text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.9) 
 }
 #hero h2 {
   color: rgb(255, 255, 255);
   margin-bottom: 50px;
   font-size: 24px;
-  text-shadow: 1px 3px 4px rgb(0, 0, 0); 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.80); 
 }
 #hero .btn-get-started {
   font-family: "Jost", sans-serif;
@@ -420,10 +418,10 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #22ad11;
+  background: #0068b5;
 }
 #hero .btn-get-started:hover {
-  background: #59e447
+  background: #0068b5;
 }
 #hero .btn-watch-video {
   font-size: 16px;
@@ -431,18 +429,18 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   transition: 0.5s;
   margin: 10px 0 0 25px;
-  color: #fff;
+  color: #000000;
   line-height: 1;
 }
 #hero .btn-watch-video i {
   line-height: 0;
-  color: #fff;
+  color: #000000;
   font-size: 32px;
   transition: 0.3s;
   margin-right: 8px;
 }
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #454546;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -580,7 +578,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #27b646;
+  color: #0068b5;;
 }
 .section-title h2::before {
   content: "";
@@ -664,7 +662,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #37517e;
+  color: #0068b5;
   font-family: "Poppins", sans-serif;
 }
 .skills .content ul {
@@ -695,7 +693,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #37517e;
+  color: #0068b5;;
 }
 .skills .progress .skill .val {
   float: right;
@@ -709,7 +707,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #4668a2;
+  background-color: #0068b5;;
 }
 
 /*--------------------------------------------------------------
@@ -733,7 +731,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #27b646b0;;
+  background: #0068b5;
   color: #fff;
 }
 .portfolio .portfolio-item {
@@ -761,7 +759,7 @@ section {
 }
 .portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color:#37517e;
+  color: #0068b5;
   font-weight: 600;
   
   margin-bottom: 0px;
@@ -895,7 +893,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #0068b5;
 }
 .team .member span {
   display: block;
@@ -936,7 +934,7 @@ section {
   background: #eff2f8;
 }
 .team .member .social-outer a i {
-  color: #37517e;
+  color: #0068b5;
   font-size: 16px;
   margin: 0 2px;
 }
@@ -1034,13 +1032,13 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: #0068b5;;
 }
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #6182ba;
+  color: #0068b5;;
 }
 .contact .info .email p {
   padding-top: 5px;
@@ -1102,7 +1100,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #0068b5;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1120,7 +1118,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #0068b5;;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1231,7 +1229,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #27b646;
+  color: #0068b5;;
 }
 #footer .footer-newsletter form {
   margin-top: 30px;
@@ -1249,7 +1247,7 @@ section {
 }
 #footer #contactbutton:hover {
   color: white;
-  background-color: #27b646;;
+  background-color: #0068b5;
 }
 #footer .footer-newsletter form input[type=submit] {
   position: absolute;
@@ -1287,7 +1285,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #0068b5;
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
@@ -1299,7 +1297,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #0068b5;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1420,5 +1418,5 @@ marquee{
   font-family:"open-sans",sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
-  color:#37517e
+  color: #0068b5;
 }
