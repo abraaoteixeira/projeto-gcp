@@ -386,8 +386,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: auto;
-  background-image: url("../img/r0q91sp9.png");
-  background-repeat: no-repeat;
+  background-image: url("../img/teste-backgound.jpeg");
+  background-repeat: round;
   height: 100vh;
 }
 #hero .container {
